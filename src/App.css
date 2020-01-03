@@ -1,0 +1,32 @@
+.Navigation{
+  width: 100%;
+  height: 70px;
+  background-color: #242424;
+}
+
+.Navigation > div{
+  width: 70%;
+  line-height: 70px;
+  margin: 0 auto;
+}
+
+.Navigation > div > h1{
+    color: #ffffff;
+    margin: 0;
+    float: left;
+}
+
+.Navigation > div > ul{
+  width:550px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  list-style:none;
+}
+
+.Navigation > div > ul >  li  > a{
+  color: #cccccc;
+  text-decoration:none;
+  margin:0 19px ;
+} 
